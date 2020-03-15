@@ -4,7 +4,7 @@ var bot = new Discord.Client({
    token: auth.token,
    autorun: true
 });
-bot.on('message', message => {
+bot.on('message', function (user, userID, channelID, message, evt){
     if (message.content.substring(0, 1) == '!') {
         var args = message.content.substring(1).split(' ');
         var cmd = args[0];
