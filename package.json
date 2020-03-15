@@ -1,0 +1,23 @@
+{
+  "name": "CloudBots",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clone711/CloudBots.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Clone711/CloudBots/issues"
+  },
+  "homepage": "https://github.com/Clone711/CloudBots#readme",
+  "dependencies": {
+    "discord.js": "^12.0.2"
+  }
+}
